@@ -1,0 +1,21 @@
+{
+  "name": "slackbot",
+  "version": "1.0.0",
+  "description": "Random joke teller",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node -- src/index.js"
+  },
+  "author": "Dennis Macharia",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "slackbots": "^1.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.18.10",
+    "prettier": "^1.16.4"
+  }
+}
